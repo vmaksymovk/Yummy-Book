@@ -1,9 +1,3 @@
-//
-//  Yummy_BookApp.swift
-//  Yummy Book
-//
-//  Created by Влад on 6/27/24.
-//
 
 import SwiftUI
 

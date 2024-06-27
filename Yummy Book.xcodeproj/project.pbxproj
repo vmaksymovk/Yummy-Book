@@ -32,6 +32,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F5D609982C2DAA23000520C5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F5D609992C2DAA2F000520C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5F1F1E72C2DA92500A8060E /* ContentView.swift */,
+				F5F1F1E52C2DA92500A8060E /* Yummy_BookApp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5D6099A2C2DAA36000520C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F5D6099B2C2DAA61000520C5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		F5F1F1D92C2DA92500A8060E = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +81,11 @@
 		F5F1F1E42C2DA92500A8060E /* Yummy Book */ = {
 			isa = PBXGroup;
 			children = (
-				F5F1F1E52C2DA92500A8060E /* Yummy_BookApp.swift */,
-				F5F1F1E72C2DA92500A8060E /* ContentView.swift */,
+				F5D6099B2C2DAA61000520C5 /* Utilities */,
+				F5D6099A2C2DAA36000520C5 /* Resources */,
+				F5D609992C2DAA2F000520C5 /* Views */,
+				F5D609982C2DAA23000520C5 /* ViewModels */,
+				F5F1F1F32C2DAA0700A8060E /* Models */,
 				F5F1F1E92C2DA92700A8060E /* Assets.xcassets */,
 				F5F1F1EB2C2DA92700A8060E /* Preview Content */,
 			);
@@ -65,6 +98,13 @@
 				F5F1F1EC2C2DA92700A8060E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5F1F1F32C2DAA0700A8060E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
