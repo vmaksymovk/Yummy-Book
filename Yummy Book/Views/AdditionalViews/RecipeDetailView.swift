@@ -2,7 +2,8 @@ import SwiftUI
 
 struct RecipeDetailView: View {
     let recipe: Recipe
-
+    @EnvironmentObject var favoritesManager: FavoritesManager
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
@@ -32,11 +33,12 @@ struct RecipeDetailView: View {
                             .font(.title2)
                             .padding()
                     }
+                    
                 }
                 .background(Color(.systemGray6))
                 .cornerRadius(10)
                 .padding(.horizontal)
-
+                
                 LazyVStack(alignment: .leading, spacing: 10) {
                     ForEach(recipe.ingredients, id: \.self) { ingredient in
                         HStack {
@@ -50,7 +52,7 @@ struct RecipeDetailView: View {
                     }
                 }
                 .padding(.horizontal)
-
+                
                 Text("Steps")
                     .font(.title2)
                     .bold()
@@ -76,9 +78,29 @@ struct RecipeDetailView: View {
         }
         .navigationTitle(recipe.name)
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button(action: {
+                    toggleFavorite()
+                }) {
+                    Image(systemName: favoritesManager.isFavorite(recipe: recipe) ? "star.fill" : "star")
+                        .foregroundColor(favoritesManager.isFavorite(recipe: recipe) ? .yellow : .gray)
+                        .font(favoritesManager.isFavorite(recipe: recipe) ? .title : .title2)
+                        .padding()
+                }
+            }
+        }
     }
+    private func toggleFavorite() {
+            if favoritesManager.isFavorite(recipe: recipe) {
+                favoritesManager.removeFavorite(recipe: recipe)
+            } else {
+                favoritesManager.addFavorite(recipe: recipe)
+            }
+        }
 }
 
 #Preview {
     RecipeDetailView(recipe: Recipe(id: "", name: "Pizza", imageName: "pizza", ingredients: ["Dough", "Tomato Sauce", "Mozzarella Cheese", "Basil"], steps: ["Prepare the dough", "Spread the tomato sauce", "Add the mozzarella cheese", "Bake the pizza", "Garnish with basil"]))
+            .environmentObject(FavoritesManager())
 }

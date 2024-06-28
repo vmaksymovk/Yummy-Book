@@ -10,7 +10,7 @@ struct RecipesListView: View {
                     HStack {
                         Image(recipe.imageName)
                             .resizable()
-                            .frame(width: 60, height: 60)
+                            .frame(width: 70, height: 60)
                             .cornerRadius(8)
                         Text(recipe.name)
                             .font(.title2)
@@ -25,4 +25,5 @@ struct RecipesListView: View {
 
 #Preview {
     RecipesListView()
+        .environmentObject(FavoritesManager())
 }

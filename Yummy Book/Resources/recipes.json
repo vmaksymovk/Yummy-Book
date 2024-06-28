@@ -19,6 +19,70 @@
         "imageName": "caesar_salad",
         "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
         "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
+    },
+    {
+        "id": "4",
+        "name": "Spaghetti Carbonara",
+        "imageName": "carbonara",
+        "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan cheese", "Black pepper"],
+        "steps": ["Boil the spaghetti", "Cook the pancetta", "Mix eggs and cheese", "Combine all and season"]
+    },
+    {
+        "id": "5",
+        "name": "Margherita Pizza",
+        "imageName": "pizza",
+        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Basil"],
+        "steps": ["Roll out the dough", "Spread tomato sauce", "Add cheese", "Bake and garnish with basil"]
+    },
+    {
+        "id": "6",
+        "name": "Caesar Salad",
+        "imageName": "caesar_salad",
+        "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
+        "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
+    },
+    {
+        "id": "7",
+        "name": "Spaghetti Carbonara",
+        "imageName": "carbonara",
+        "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan cheese", "Black pepper"],
+        "steps": ["Boil the spaghetti", "Cook the pancetta", "Mix eggs and cheese", "Combine all and season"]
+    },
+    {
+        "id": "8",
+        "name": "Margherita Pizza",
+        "imageName": "pizza",
+        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Basil"],
+        "steps": ["Roll out the dough", "Spread tomato sauce", "Add cheese", "Bake and garnish with basil"]
+    },
+    {
+        "id": "9",
+        "name": "Caesar Salad",
+        "imageName": "caesar_salad",
+        "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
+        "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
+    },
+    {
+        "id": "10",
+        "name": "Spaghetti Carbonara",
+        "imageName": "carbonara",
+        "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan cheese", "Black pepper"],
+        "steps": ["Boil the spaghetti", "Cook the pancetta", "Mix eggs and cheese", "Combine all and season"]
+    },
+    {
+        "id": "11",
+        "name": "Margherita Pizza",
+        "imageName": "pizza",
+        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Basil"],
+        "steps": ["Roll out the dough", "Spread tomato sauce", "Add cheese", "Bake and garnish with basil"]
+    },
+    {
+        "id": "12",
+        "name": "Caesar Salad",
+        "imageName": "caesar_salad",
+        "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
+        "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
     }
+    
 ]
 
