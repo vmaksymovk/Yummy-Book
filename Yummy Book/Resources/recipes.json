@@ -1,0 +1,24 @@
+[
+    {
+        "id": "1",
+        "name": "Spaghetti Carbonara",
+        "imageName": "carbonara",
+        "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan cheese", "Black pepper"],
+        "steps": ["Boil the spaghetti", "Cook the pancetta", "Mix eggs and cheese", "Combine all and season"]
+    },
+    {
+        "id": "2",
+        "name": "Margherita Pizza",
+        "imageName": "pizza",
+        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Basil"],
+        "steps": ["Roll out the dough", "Spread tomato sauce", "Add cheese", "Bake and garnish with basil"]
+    },
+    {
+        "id": "3",
+        "name": "Caesar Salad",
+        "imageName": "caesar_salad",
+        "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
+        "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
+    }
+]
+

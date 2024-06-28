@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5D6099D2C2EDCAE000520C5 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = F5D6099C2C2EDCAE000520C5 /* recipes.json */; };
+		F5D6099F2C2EDD05000520C5 /* ModelOfRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D6099E2C2EDD05000520C5 /* ModelOfRecipe.swift */; };
+		F5D609A12C2EDD29000520C5 /* ViewModelOfRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D609A02C2EDD29000520C5 /* ViewModelOfRecipe.swift */; };
+		F5D609A32C2EDD61000520C5 /* RecipesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D609A22C2EDD61000520C5 /* RecipesListView.swift */; };
+		F5D609A52C2EE081000520C5 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D609A42C2EE081000520C5 /* FavoritesView.swift */; };
 		F5F1F1E62C2DA92500A8060E /* Yummy_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F1F1E52C2DA92500A8060E /* Yummy_BookApp.swift */; };
 		F5F1F1E82C2DA92500A8060E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F1F1E72C2DA92500A8060E /* ContentView.swift */; };
 		F5F1F1EA2C2DA92700A8060E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F1F1E92C2DA92700A8060E /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F5D6099C2C2EDCAE000520C5 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		F5D6099E2C2EDD05000520C5 /* ModelOfRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOfRecipe.swift; sourceTree = "<group>"; };
+		F5D609A02C2EDD29000520C5 /* ViewModelOfRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelOfRecipe.swift; sourceTree = "<group>"; };
+		F5D609A22C2EDD61000520C5 /* RecipesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListView.swift; sourceTree = "<group>"; };
+		F5D609A42C2EE081000520C5 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		F5F1F1E22C2DA92500A8060E /* Yummy Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yummy Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F1F1E52C2DA92500A8060E /* Yummy_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yummy_BookApp.swift; sourceTree = "<group>"; };
 		F5F1F1E72C2DA92500A8060E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +45,7 @@
 		F5D609982C2DAA23000520C5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F5D609A02C2EDD29000520C5 /* ViewModelOfRecipe.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -44,6 +55,8 @@
 			children = (
 				F5F1F1E72C2DA92500A8060E /* ContentView.swift */,
 				F5F1F1E52C2DA92500A8060E /* Yummy_BookApp.swift */,
+				F5D609A22C2EDD61000520C5 /* RecipesListView.swift */,
+				F5D609A42C2EE081000520C5 /* FavoritesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -51,6 +64,7 @@
 		F5D6099A2C2DAA36000520C5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F5D6099C2C2EDCAE000520C5 /* recipes.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -103,6 +117,7 @@
 		F5F1F1F32C2DAA0700A8060E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F5D6099E2C2EDD05000520C5 /* ModelOfRecipe.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5F1F1ED2C2DA92700A8060E /* Preview Assets.xcassets in Resources */,
+				F5D6099D2C2EDCAE000520C5 /* recipes.json in Resources */,
 				F5F1F1EA2C2DA92700A8060E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +195,10 @@
 			files = (
 				F5F1F1E82C2DA92500A8060E /* ContentView.swift in Sources */,
 				F5F1F1E62C2DA92500A8060E /* Yummy_BookApp.swift in Sources */,
+				F5D609A52C2EE081000520C5 /* FavoritesView.swift in Sources */,
+				F5D609A32C2EDD61000520C5 /* RecipesListView.swift in Sources */,
+				F5D6099F2C2EDD05000520C5 /* ModelOfRecipe.swift in Sources */,
+				F5D609A12C2EDD29000520C5 /* ViewModelOfRecipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
