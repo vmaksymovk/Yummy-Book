@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F52999862C3350DA00DC5930 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52999852C3350DA00DC5930 /* ProfileView.swift */; };
+		F52999882C3357C600DC5930 /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52999872C3357C600DC5930 /* SupportView.swift */; };
+		F529998A2C3358A500DC5930 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52999892C3358A500DC5930 /* FAQView.swift */; };
+		F529998C2C33594900DC5930 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F529998B2C33594900DC5930 /* ChangePasswordView.swift */; };
+		F529998E2C335A1300DC5930 /* UpdateEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F529998D2C335A1300DC5930 /* UpdateEmailView.swift */; };
+		F52999902C335A8200DC5930 /* ContactSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F529998F2C335A8200DC5930 /* ContactSupportView.swift */; };
 		F5D6099D2C2EDCAE000520C5 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = F5D6099C2C2EDCAE000520C5 /* recipes.json */; };
 		F5D6099F2C2EDD05000520C5 /* ModelOfRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D6099E2C2EDD05000520C5 /* ModelOfRecipe.swift */; };
 		F5D609A12C2EDD29000520C5 /* ViewModelOfRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D609A02C2EDD29000520C5 /* ViewModelOfRecipe.swift */; };
@@ -23,6 +28,11 @@
 
 /* Begin PBXFileReference section */
 		F52999852C3350DA00DC5930 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F52999872C3357C600DC5930 /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		F52999892C3358A500DC5930 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		F529998B2C33594900DC5930 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		F529998D2C335A1300DC5930 /* UpdateEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEmailView.swift; sourceTree = "<group>"; };
+		F529998F2C335A8200DC5930 /* ContactSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSupportView.swift; sourceTree = "<group>"; };
 		F5D6099C2C2EDCAE000520C5 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		F5D6099E2C2EDD05000520C5 /* ModelOfRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOfRecipe.swift; sourceTree = "<group>"; };
 		F5D609A02C2EDD29000520C5 /* ViewModelOfRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelOfRecipe.swift; sourceTree = "<group>"; };
@@ -97,6 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				F5D609A82C2EE472000520C5 /* RecipeDetailView.swift */,
+				F52999872C3357C600DC5930 /* SupportView.swift */,
+				F52999892C3358A500DC5930 /* FAQView.swift */,
+				F529998B2C33594900DC5930 /* ChangePasswordView.swift */,
+				F529998D2C335A1300DC5930 /* UpdateEmailView.swift */,
+				F529998F2C335A8200DC5930 /* ContactSupportView.swift */,
 			);
 			path = AdditionalViews;
 			sourceTree = "<group>";
@@ -218,15 +233,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52999882C3357C600DC5930 /* SupportView.swift in Sources */,
 				F5D609A92C2EE472000520C5 /* RecipeDetailView.swift in Sources */,
 				F52999862C3350DA00DC5930 /* ProfileView.swift in Sources */,
 				F5F1F1E82C2DA92500A8060E /* ContentView.swift in Sources */,
 				F5F1F1E62C2DA92500A8060E /* Yummy_BookApp.swift in Sources */,
 				F5D609A52C2EE081000520C5 /* FavoritesView.swift in Sources */,
 				F5D609A32C2EDD61000520C5 /* RecipesListView.swift in Sources */,
+				F529998E2C335A1300DC5930 /* UpdateEmailView.swift in Sources */,
+				F529998C2C33594900DC5930 /* ChangePasswordView.swift in Sources */,
+				F52999902C335A8200DC5930 /* ContactSupportView.swift in Sources */,
 				F5D6099F2C2EDD05000520C5 /* ModelOfRecipe.swift in Sources */,
 				F5D609A12C2EDD29000520C5 /* ViewModelOfRecipe.swift in Sources */,
 				F5D609AB2C2EE93F000520C5 /* FavoritesManager.swift in Sources */,
+				F529998A2C3358A500DC5930 /* FAQView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
