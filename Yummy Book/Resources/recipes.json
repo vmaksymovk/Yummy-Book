@@ -82,6 +82,13 @@
         "imageName": "caesar_salad",
         "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
         "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
+    },
+    {
+        "id": "13",
+        "name": "Kebab",
+        "imageName": "kebab",
+        "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
+        "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
     }
     
 ]
