@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F52999862C3350DA00DC5930 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52999852C3350DA00DC5930 /* ProfileView.swift */; };
 		F5D6099D2C2EDCAE000520C5 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = F5D6099C2C2EDCAE000520C5 /* recipes.json */; };
 		F5D6099F2C2EDD05000520C5 /* ModelOfRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D6099E2C2EDD05000520C5 /* ModelOfRecipe.swift */; };
 		F5D609A12C2EDD29000520C5 /* ViewModelOfRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D609A02C2EDD29000520C5 /* ViewModelOfRecipe.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F52999852C3350DA00DC5930 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F5D6099C2C2EDCAE000520C5 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		F5D6099E2C2EDD05000520C5 /* ModelOfRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOfRecipe.swift; sourceTree = "<group>"; };
 		F5D609A02C2EDD29000520C5 /* ViewModelOfRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelOfRecipe.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				F5D609A42C2EE081000520C5 /* FavoritesView.swift */,
 				F5D609A22C2EDD61000520C5 /* RecipesListView.swift */,
 				F5F1F1E72C2DA92500A8060E /* ContentView.swift */,
+				F52999852C3350DA00DC5930 /* ProfileView.swift */,
 			);
 			path = TabViews;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D609A92C2EE472000520C5 /* RecipeDetailView.swift in Sources */,
+				F52999862C3350DA00DC5930 /* ProfileView.swift in Sources */,
 				F5F1F1E82C2DA92500A8060E /* ContentView.swift in Sources */,
 				F5F1F1E62C2DA92500A8060E /* Yummy_BookApp.swift in Sources */,
 				F5D609A52C2EE081000520C5 /* FavoritesView.swift in Sources */,
