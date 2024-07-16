@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 
 struct Recipe: Identifiable, Codable {
     let id: String
@@ -7,3 +8,4 @@ struct Recipe: Identifiable, Codable {
     let ingredients: [String]
     let steps: [String]
 }
+

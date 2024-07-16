@@ -1,9 +1,9 @@
-
 import SwiftUI
 
 struct ContentView: View {
     @State private var isSelected : Int = 1
     @EnvironmentObject var favoritesManager: FavoritesManager
+    
     var body: some View {
         TabView(selection: $isSelected,
                 content:  {
@@ -23,10 +23,12 @@ struct ContentView: View {
                 }
                 .tag(3)
         })
+        
     }
 }
 
 #Preview {
     ContentView()
         .environmentObject(FavoritesManager())
+        
 }
