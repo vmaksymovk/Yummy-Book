@@ -3,93 +3,225 @@
         "id": "1",
         "name": "Spaghetti Carbonara",
         "imageName": "carbonara",
-        "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan cheese", "Black pepper"],
-        "steps": ["Boil the spaghetti", "Cook the pancetta", "Mix eggs and cheese", "Combine all and season"]
+        "ingredients": [
+            "Spaghetti - 200 grams",
+            "Eggs - 2",
+            "Pancetta - 100 grams",
+            "Parmesan cheese - 50 grams",
+            "Black pepper - to taste"
+        ],
+        "steps": [
+            "Boil the spaghetti",
+            "Cook the pancetta",
+            "Mix eggs and cheese",
+            "Combine all and season"
+        ]
     },
     {
         "id": "2",
         "name": "Margherita Pizza",
         "imageName": "pizza",
-        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Basil"],
-        "steps": ["Roll out the dough", "Spread tomato sauce", "Add cheese", "Bake and garnish with basil"]
+        "ingredients": [
+            "Pizza dough - 300 grams",
+            "Tomato sauce - 100 grams",
+            "Mozzarella cheese - 200 grams",
+            "Basil - a handful"
+        ],
+        "steps": [
+            "Roll out the dough",
+            "Spread tomato sauce",
+            "Add cheese",
+            "Bake and garnish with basil"
+        ]
     },
     {
         "id": "3",
         "name": "Caesar Salad",
         "imageName": "caesar_salad",
-        "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
-        "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
+        "ingredients": [
+            "Romaine lettuce - 1 head",
+            "Croutons - 50 grams",
+            "Parmesan cheese - 50 grams",
+            "Caesar dressing - 100 grams"
+        ],
+        "steps": [
+            "Chop the lettuce",
+            "Add croutons",
+            "Grate the Parmesan",
+            "Add dressing and mix"
+        ]
     },
     {
         "id": "4",
         "name": "Spaghetti Carbonara",
         "imageName": "carbonara",
-        "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan cheese", "Black pepper"],
-        "steps": ["Boil the spaghetti", "Cook the pancetta", "Mix eggs and cheese", "Combine all and season"]
+        "ingredients": [
+            "Spaghetti - 200 grams",
+            "Eggs - 2",
+            "Pancetta - 100 grams",
+            "Parmesan cheese - 50 grams",
+            "Black pepper - to taste"
+        ],
+        "steps": [
+            "Boil the spaghetti",
+            "Cook the pancetta",
+            "Mix eggs and cheese",
+            "Combine all and season"
+        ]
     },
     {
         "id": "5",
         "name": "Margherita Pizza",
         "imageName": "pizza",
-        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Basil"],
-        "steps": ["Roll out the dough", "Spread tomato sauce", "Add cheese", "Bake and garnish with basil"]
+        "ingredients": [
+            "Pizza dough - 300 grams",
+            "Tomato sauce - 100 grams",
+            "Mozzarella cheese - 200 grams",
+            "Basil - a handful"
+        ],
+        "steps": [
+            "Roll out the dough",
+            "Spread tomato sauce",
+            "Add cheese",
+            "Bake and garnish with basil"
+        ]
     },
     {
         "id": "6",
         "name": "Caesar Salad",
         "imageName": "caesar_salad",
-        "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
-        "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
+        "ingredients": [
+            "Romaine lettuce - 1 head",
+            "Croutons - 50 grams",
+            "Parmesan cheese - 50 grams",
+            "Caesar dressing - 100 grams"
+        ],
+        "steps": [
+            "Chop the lettuce",
+            "Add croutons",
+            "Grate the Parmesan",
+            "Add dressing and mix"
+        ]
     },
     {
         "id": "7",
         "name": "Spaghetti Carbonara",
         "imageName": "carbonara",
-        "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan cheese", "Black pepper"],
-        "steps": ["Boil the spaghetti", "Cook the pancetta", "Mix eggs and cheese", "Combine all and season"]
+        "ingredients": [
+            "Spaghetti - 200 grams",
+            "Eggs - 2",
+            "Pancetta - 100 grams",
+            "Parmesan cheese - 50 grams",
+            "Black pepper - to taste"
+        ],
+        "steps": [
+            "Boil the spaghetti",
+            "Cook the pancetta",
+            "Mix eggs and cheese",
+            "Combine all and season"
+        ]
     },
     {
         "id": "8",
         "name": "Margherita Pizza",
         "imageName": "pizza",
-        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Basil"],
-        "steps": ["Roll out the dough", "Spread tomato sauce", "Add cheese", "Bake and garnish with basil"]
+        "ingredients": [
+            "Pizza dough - 300 grams",
+            "Tomato sauce - 100 grams",
+            "Mozzarella cheese - 200 grams",
+            "Basil - a handful"
+        ],
+        "steps": [
+            "Roll out the dough",
+            "Spread tomato sauce",
+            "Add cheese",
+            "Bake and garnish with basil"
+        ]
     },
     {
         "id": "9",
         "name": "Caesar Salad",
         "imageName": "caesar_salad",
-        "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
-        "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
+        "ingredients": [
+            "Romaine lettuce - 1 head",
+            "Croutons - 50 grams",
+            "Parmesan cheese - 50 grams",
+            "Caesar dressing - 100 grams"
+        ],
+        "steps": [
+            "Chop the lettuce",
+            "Add croutons",
+            "Grate the Parmesan",
+            "Add dressing and mix"
+        ]
     },
     {
         "id": "10",
         "name": "Spaghetti Carbonara",
         "imageName": "carbonara",
-        "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan cheese", "Black pepper"],
-        "steps": ["Boil the spaghetti", "Cook the pancetta", "Mix eggs and cheese", "Combine all and season"]
+        "ingredients": [
+            "Spaghetti - 200 grams",
+            "Eggs - 2",
+            "Pancetta - 100 grams",
+            "Parmesan cheese - 50 grams",
+            "Black pepper - to taste"
+        ],
+        "steps": [
+            "Boil the spaghetti",
+            "Cook the pancetta",
+            "Mix eggs and cheese",
+            "Combine all and season"
+        ]
     },
     {
         "id": "11",
         "name": "Margherita Pizza",
         "imageName": "pizza",
-        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Basil"],
-        "steps": ["Roll out the dough", "Spread tomato sauce", "Add cheese", "Bake and garnish with basil"]
+        "ingredients": [
+            "Pizza dough - 300 grams",
+            "Tomato sauce - 100 grams",
+            "Mozzarella cheese - 200 grams",
+            "Basil - a handful"
+        ],
+        "steps": [
+            "Roll out the dough",
+            "Spread tomato sauce",
+            "Add cheese",
+            "Bake and garnish with basil"
+        ]
     },
     {
         "id": "12",
         "name": "Caesar Salad",
         "imageName": "caesar_salad",
-        "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
-        "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
+        "ingredients": [
+            "Romaine lettuce - 1 head",
+            "Croutons - 50 grams",
+            "Parmesan cheese - 50 grams",
+            "Caesar dressing - 100 grams"
+        ],
+        "steps": [
+            "Chop the lettuce",
+            "Add croutons",
+            "Grate the Parmesan",
+            "Add dressing and mix"
+        ]
     },
     {
         "id": "13",
         "name": "Kebab",
         "imageName": "kebab",
-        "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
-        "steps": ["Chop the lettuce", "Add croutons", "Grate the Parmesan", "Add dressing and mix"]
+        "ingredients": [
+            "Romaine lettuce - 1 head",
+            "Croutons - 50 grams",
+            "Parmesan cheese - 50 grams",
+            "Caesar dressing - 100 grams"
+        ],
+        "steps": [
+            "Chop the lettuce",
+            "Add croutons",
+            "Grate the Parmesan",
+            "Add dressing and mix"
+        ]
     }
-    
 ]
-

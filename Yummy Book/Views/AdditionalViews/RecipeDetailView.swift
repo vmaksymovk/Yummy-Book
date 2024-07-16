@@ -3,6 +3,7 @@ import SwiftUI
 struct RecipeDetailView: View {
     let recipe: Recipe
     @EnvironmentObject var favoritesManager: FavoritesManager
+    @State private var showingShareSheet = false // State to control showing of share sheet
     
     var body: some View {
         ScrollView {
@@ -27,13 +28,16 @@ struct RecipeDetailView: View {
                     Spacer()
                     
                     Button(action: {
-                        // Share recipe action
+                        showingShareSheet.toggle() // Toggle the state to show the share sheet
                     }) {
                         Image(systemName: "square.and.arrow.up")
                             .font(.title2)
                             .padding()
                     }
-                    
+                    .sheet(isPresented: $showingShareSheet) {
+                        // Share sheet content
+                        ActivityViewController(activityItems: [shareText], applicationActivities: nil)
+                    }
                 }
                 .background(Color(.systemGray6))
                 .cornerRadius(10)
@@ -91,16 +95,42 @@ struct RecipeDetailView: View {
             }
         }
     }
+    
     private func toggleFavorite() {
-            if favoritesManager.isFavorite(recipe: recipe) {
-                favoritesManager.removeFavorite(recipe: recipe)
-            } else {
-                favoritesManager.addFavorite(recipe: recipe)
-            }
+        if favoritesManager.isFavorite(recipe: recipe) {
+            favoritesManager.removeFavorite(recipe: recipe)
+        } else {
+            favoritesManager.addFavorite(recipe: recipe)
         }
+    }
+    
+    private var shareText: String {
+        var text = "Check out the ingredients for \(recipe.name):\n\n"
+        for ingredient in recipe.ingredients {
+            text.append("- \(ingredient)\n")
+        }
+        return text
+    }
 }
 
-#Preview {
-    RecipeDetailView(recipe: Recipe(id: "", name: "Pizza", imageName: "pizza", ingredients: ["Dough", "Tomato Sauce", "Mozzarella Cheese", "Basil"], steps: ["Prepare the dough", "Spread the tomato sauce", "Add the mozzarella cheese", "Bake the pizza", "Garnish with basil"]))
+struct ActivityViewController: UIViewControllerRepresentable {
+    let activityItems: [Any]
+    let applicationActivities: [UIActivity]?
+
+    func makeUIViewController(context: Context) -> UIActivityViewController {
+        let controller = UIActivityViewController(
+            activityItems: activityItems,
+            applicationActivities: applicationActivities
+        )
+        return controller
+    }
+
+    func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
+}
+
+struct RecipeDetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        RecipeDetailView(recipe: Recipe(id: "", name: "Pizza", imageName: "pizza", ingredients: ["Dough", "Tomato Sauce", "Mozzarella Cheese", "Basil"], steps: ["Prepare the dough", "Spread the tomato sauce", "Add the mozzarella cheese", "Bake the pizza", "Garnish with basil"]))
             .environmentObject(FavoritesManager())
+    }
 }
