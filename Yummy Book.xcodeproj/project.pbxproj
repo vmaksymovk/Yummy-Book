@@ -17,6 +17,7 @@
 		F5478CB52C46BDB7006677D4 /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F5478CB22C46BDB6006677D4 /* 1.PNG */; };
 		F5478CB62C46BDB7006677D4 /* 3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F5478CB32C46BDB6006677D4 /* 3.PNG */; };
 		F5478CB72C46BDB7006677D4 /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F5478CB42C46BDB7006677D4 /* 2.PNG */; };
+		F5478CB92C46BDFD006677D4 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F5478CB82C46BDFD006677D4 /* 4.jpeg */; };
 		F5D6099D2C2EDCAE000520C5 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = F5D6099C2C2EDCAE000520C5 /* recipes.json */; };
 		F5D6099F2C2EDD05000520C5 /* ModelOfRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D6099E2C2EDD05000520C5 /* ModelOfRecipe.swift */; };
 		F5D609A12C2EDD29000520C5 /* ViewModelOfRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D609A02C2EDD29000520C5 /* ViewModelOfRecipe.swift */; };
@@ -41,6 +42,7 @@
 		F5478CB22C46BDB6006677D4 /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
 		F5478CB32C46BDB6006677D4 /* 3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.PNG; sourceTree = "<group>"; };
 		F5478CB42C46BDB7006677D4 /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
+		F5478CB82C46BDFD006677D4 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
 		F5D6099C2C2EDCAE000520C5 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		F5D6099E2C2EDD05000520C5 /* ModelOfRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOfRecipe.swift; sourceTree = "<group>"; };
 		F5D609A02C2EDD29000520C5 /* ViewModelOfRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelOfRecipe.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				F5478CB22C46BDB6006677D4 /* 1.PNG */,
 				F5478CB42C46BDB7006677D4 /* 2.PNG */,
 				F5478CB32C46BDB6006677D4 /* 3.PNG */,
+				F5478CB82C46BDFD006677D4 /* 4.jpeg */,
 			);
 			path = ScreenShots;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				F5F1F1ED2C2DA92700A8060E /* Preview Assets.xcassets in Resources */,
 				F5478CB52C46BDB7006677D4 /* 1.PNG in Resources */,
 				F5D6099D2C2EDCAE000520C5 /* recipes.json in Resources */,
+				F5478CB92C46BDFD006677D4 /* 4.jpeg in Resources */,
 				F5478CB62C46BDB7006677D4 /* 3.PNG in Resources */,
 				F5F1F1EA2C2DA92700A8060E /* Assets.xcassets in Resources */,
 			);
