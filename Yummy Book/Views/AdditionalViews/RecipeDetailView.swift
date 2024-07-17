@@ -65,18 +65,21 @@ struct RecipeDetailView: View {
                     .cornerRadius(10)
                     .padding(.horizontal)
                 
-                LazyVStack(alignment: .leading, spacing: 10) {
-                    ForEach(recipe.steps, id: \.self) { step in
-                        HStack(alignment: .top) {
-                            Text("\(recipe.steps.firstIndex(of: step)! + 1).")
-                                .bold()
-                                .padding(.top, 2)
-                            Text(step)
-                        }
-                        .padding(.horizontal)
+                TabView {
+                    ForEach(recipe.steps.indices, id: \.self) { index in
+                        StepCardView(stepNumber: index + 1, stepText: recipe.steps[index])
+                            .padding()
+                            .frame(width: 250)
+                            .padding()
+                            .background(Color(.systemGray6))
+                            .cornerRadius(15)
+                            .shadow(radius: 5)
+                            .padding(.horizontal, 20)
+                            
                     }
                 }
-                .padding(.horizontal)
+                .tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
+                .frame(height: 200)
             }
             .padding(.vertical)
         }
@@ -94,6 +97,7 @@ struct RecipeDetailView: View {
                 }
             }
         }
+        
     }
     
     private func toggleFavorite() {
@@ -113,20 +117,7 @@ struct RecipeDetailView: View {
     }
 }
 
-struct ActivityViewController: UIViewControllerRepresentable {
-    let activityItems: [Any]
-    let applicationActivities: [UIActivity]?
 
-    func makeUIViewController(context: Context) -> UIActivityViewController {
-        let controller = UIActivityViewController(
-            activityItems: activityItems,
-            applicationActivities: applicationActivities
-        )
-        return controller
-    }
-
-    func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
-}
 
 struct RecipeDetailView_Previews: PreviewProvider {
     static var previews: some View {

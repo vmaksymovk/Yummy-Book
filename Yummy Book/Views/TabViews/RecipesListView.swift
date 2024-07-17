@@ -3,7 +3,7 @@ import SwiftUI
 struct RecipesListView: View {
     @ObservedObject var viewModel = RecipesViewModel()
     @State private var searchTerm = ""
-    
+    @Environment(\.isDarkMode) private var isDarkMode
     var filteredRecipes: [Recipe] {
         if searchTerm.isEmpty {
             return viewModel.recipes
@@ -44,7 +44,7 @@ struct RecipesListView: View {
             }
             .navigationTitle("Recipes")
             .searchable(text: $searchTerm, placement: .automatic, prompt: "Search recipe")
-        }
+        }.preferredColorScheme(isDarkMode ? .dark : .light)
     }
 }
 
