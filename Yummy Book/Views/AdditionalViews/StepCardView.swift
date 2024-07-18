@@ -1,9 +1,3 @@
-//
-//  StepCardView.swift
-//  Yummy Book
-//
-//  Created by Влад on 7/17/24.
-//
 
 import SwiftUI
 
@@ -18,9 +12,11 @@ struct StepCardView: View {
                 .padding(.bottom, 5)
             Text(stepText)
                 .font(.body)
+                .fixedSize(horizontal: false, vertical: true)
                 
         }
         .padding()
+        .frame(minHeight: 160)
     }
 }
 
